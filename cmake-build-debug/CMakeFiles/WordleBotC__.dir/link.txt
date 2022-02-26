@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/WordleBotC__.dir/main.cpp.o -o WordleBotC__.exe -Wl,--out-implib,libWordleBotC__.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
