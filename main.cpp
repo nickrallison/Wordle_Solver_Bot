@@ -26,12 +26,6 @@ int main() {
     wl.greyInPos(4, "blots");
     wl.yellowInPos(5, "blots");
 
-    wl.greyInPos(1, "blots");
-    wl.yellowInPos(2, "blots");
-    wl.greyInPos(3, "blots");
-    wl.greyInPos(4, "blots");
-    wl.yellowInPos(5, "blots");
-
     wl.greenInPos(1, "skill");
     wl.greyInPos(2, "skill");
     wl.greenInPos(3, "skill");
