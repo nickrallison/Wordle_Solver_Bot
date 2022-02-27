@@ -14,23 +14,11 @@ int main() {
     wl.initWordList();
     wl.lowerCase();
 
-    wl.greyInPos(1, "crane");
+    wl.greenInPos(1, "crane");
     wl.greyInPos(2, "crane");
-    wl.greyInPos(3, "crane");
-    wl.greyInPos(4, "crane");
+    wl.greenInPos(3, "crane");
+    wl.greenInPos(4, "crane");
     wl.greyInPos(5, "crane");
-
-    wl.greyInPos(1, "blots");
-    wl.yellowInPos(2, "blots");
-    wl.greyInPos(3, "blots");
-    wl.greyInPos(4, "blots");
-    wl.yellowInPos(5, "blots");
-
-    wl.greenInPos(1, "skill");
-    wl.greyInPos(2, "skill");
-    wl.greenInPos(3, "skill");
-    wl.greenInPos(4, "skill");
-    //wl.greenInPos(5, "skill");
 
 
 
