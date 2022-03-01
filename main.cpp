@@ -14,11 +14,17 @@ int main() {
     wl.initWordList();
     wl.lowerCase();
 
-    wl.greenInPos(1, "crane");
-    wl.greyInPos(2, "crane");
-    wl.greenInPos(3, "crane");
-    wl.greenInPos(4, "crane");
-    wl.greyInPos(5, "crane");
+    wl.greyInPos(1, "soare");
+    wl.yellowInPos(2, "soare");
+    wl.greyInPos(3, "soare");
+    wl.greyInPos(4, "soare");
+    wl.greenInPos(5, "soare");
+
+    wl.greenInPos(1, "clone");
+    wl.greyInPos(2, "clone");
+    wl.greenInPos(3, "clone");
+    wl.greyInPos(4, "clone");
+    wl.greenInPos(5, "clone");
 
 
 
