@@ -18,13 +18,19 @@ int main() {
     wl.yellowInPos(2, "soare");
     wl.greyInPos(3, "soare");
     wl.greyInPos(4, "soare");
-    wl.greenInPos(5, "soare");
+    wl.greyInPos(5, "soare");
 
-    wl.greenInPos(1, "clone");
-    wl.greyInPos(2, "clone");
-    wl.greenInPos(3, "clone");
-    wl.greyInPos(4, "clone");
-    wl.greenInPos(5, "clone");
+    wl.greyInPos(1, "gluon");
+    wl.greenInPos(2, "gluon");
+    wl.greyInPos(3, "gluon");
+    wl.yellowInPos(4, "gluon");
+    wl.greyInPos(5, "gluon");
+
+    wl.greyInPos(1, "block");
+    wl.greenInPos(2, "block");
+    wl.greenInPos(3, "block");
+    wl.yellowInPos(4, "block");
+    wl.greyInPos(5, "block");
 
 
 

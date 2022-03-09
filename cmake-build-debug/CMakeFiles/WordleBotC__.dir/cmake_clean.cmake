@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/WordleBotC__.dir/main.cpp.o"
+  "CMakeFiles/WordleBotC__.dir/main.cpp.o.d"
   "WordleBotC__.exe"
   "WordleBotC__.pdb"
   "libWordleBotC__.dll.a"
