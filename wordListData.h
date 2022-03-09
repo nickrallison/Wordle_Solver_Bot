@@ -13,6 +13,11 @@
 
 class wordListData {
 public:
+    // INFO
+    //   Manipulates data on given wordList object
+    //   Data IO is to and from that object
+
+
     double shouldIGuess(std::string guess, wordList *wl) {
         int guessArray[5];
         double guessEntropyAvg = 0;
@@ -65,6 +70,17 @@ public:
             }
         }
         return guessEntropyAvg;
+
+        // INFO
+        //   Goes through every possible color combination of the given word and reduces the word list from that color
+        //   The connection to entropy in the formula often used in statistical mechanics -1 * prob * log(prob)
+        //   The above formula is used to calculate how many times the word list is cut in half times (This is the unit entropy)
+        //
+        //
+        // REQUIRES
+        //
+        // PROMISES
+        //   Returns average expected entropy of the guessed word
     }
 
     void findBestWord(wordList *wl) {
@@ -77,6 +93,12 @@ public:
         }
         bestWord = wl->wordlist[bestIndex];
         std::cout << "Best Word: " << bestWord;
+
+        // REQUIRES
+        //   Entropy list must be populated
+        // PROMISES
+        //   Prints word with the highest entropy
+        //   (Highest expected reduction of wordlist)
     }
 
     void fillWordEntropy(wordList *wl) {
@@ -87,6 +109,13 @@ public:
         }
         wl->wordEntropy = wordEntropy;
     }
+
+    // REQUIRES
+    //   Entropy list must be populated
+    // PROMISES
+    //   Performs shouldIGuess(std::string guess, wordList *wl) on every word in its list and sends entropy to wordEntropy list in wordList object
+
+
 };
 
 #endif //WORDLEBOTC___WORDLISTDATA_H

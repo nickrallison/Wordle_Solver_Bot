@@ -10,10 +10,14 @@
 
 #include "wordList.h"
 
-#define IGNOREVAL 10
 
 class WordleWord {
 public:
+
+    // INFO
+    //   Used for manually debugging after word is known
+    //
+
     std::string word;
     int infoTable[26][8] = {0};
 
@@ -42,6 +46,12 @@ public:
             }
         }
         wl->updateWordList(this->infoTable);
+
+        // REQUIRES
+        //
+        // PROMISES
+        //   Fills infoTable based on guess
+        //   uses infoTable to prune word list
     }
 
     void info2Table (int posKnown, int pos, int letterCorrect, char letter) {
@@ -64,14 +74,21 @@ public:
         if (!letterCorrect) {
             this->infoTable[charvalue][0] = 1;
         }
+
+        // REQUIRES
+        //
+        // PROMISES
+        //   Used to populate infoTable
+        //   Pos and LetterCorrect are 1s or 0s letter determines table row, pos determines column along with other values
     }
 
     void initWord(std::string setWord) {
         this->word = setWord;
-    }
 
-    void randWord(wordList *wl) {
-        this->initWord(wl->wordlist[rand() % (wl->wordlist.size())]);
+        // REQUIRES
+        //
+        // PROMISES
+        //   Sets internal word
     }
 
     void printArray() {
@@ -82,6 +99,12 @@ public:
             }
             std::cout << "\n";
         }
+
+        // REQUIRES
+        //
+        // PROMISES
+        //   Manual debugging
+        //   prints infoTable
     }
 
 };

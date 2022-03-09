@@ -2,11 +2,8 @@
 #include "wordList.h"
 #include "wordListData.h"
 
-#include <iostream>
-#include <fstream>
-#include <sstream>
-#include <vector>
-#include <string>
+//TODO: Fix behavior with double letters causing problems with word search
+//TODO: i.e. books ->  grey, green, grey, grey, grey, the grey on the second 'o' causes problems
 
 
 int main() {
