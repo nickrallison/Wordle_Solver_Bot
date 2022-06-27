@@ -8,10 +8,7 @@ Information Theory - Used Extensively in this algorithm. The main use is to loop
 
 ## Next Steps:
 The only things left to do are:
-1. Fix behavior of double letters. The algorithm will remove every word with 'O' from the pool dues to the second grey 'O' in <span style="color:blue">*B*</span>.
-2. Implement a lookup table.
-
----
+1. Fix behavior of double letters. The algorithm will remove every word with 'O' from the pool dues to the second grey 'O' in Books. 
 ```diff
 + B
 + O
@@ -19,4 +16,6 @@ The only things left to do are:
 ! K
 ! S
 ```
+2. Implement a lookup table.
+
 
