@@ -12,5 +12,11 @@ The only things left to do are:
 2. Implement a lookup table.
 
 ---
-<span style="color:blue">some *blue* text</span>.
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 
