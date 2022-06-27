@@ -8,7 +8,7 @@ Information Theory - Used Extensively in this algorithm. The main use is to loop
 
 ## Next Steps:
 The only things left to do are:
-1. Fix behavior of double letters. The algorithm will remove every word with 'O' from the pool dues to the second grey 'O' in Books. 
+1. Fix behavior of double letters. The algorithm will remove every word with 'O' from the pool due to the second grey 'O' in Books. 
 ```diff
 + B
 + O
