@@ -16,6 +16,5 @@ The only things left to do are:
 ! K
 ! S
 ```
-2. Implement a lookup table.
 
 
