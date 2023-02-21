@@ -6,15 +6,4 @@ This was a project inspired by [3Blue1Brown's video](https://www.youtube.com/wat
 ## What I learned:
 Information Theory - Used Extensively in this algorithm. The main use is to loop though all possible words and determine which would reduce the search pool most optimally.
 
-## Next Steps:
-The only things left to do are:
-1. Fix behavior of double letters. The algorithm will remove every word with 'O' from the pool due to the second grey 'O' in Books. 
-```diff
-+ B
-+ O
-# O
-! K
-! S
-```
-
 
